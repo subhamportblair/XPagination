@@ -4,7 +4,7 @@ import Table from "./table";
 
 export default function App() {
   const [data, setData] = useState([]);
-  const [currentPage, setCurrentPage] = useState(5);
+  const [currentPage, setCurrentPage] = useState(1);
   const [postperPage, setPostperPage] = useState(10);
   const lastPostIndex = currentPage * postperPage;
   const firstPost = lastPostIndex - postperPage;
